@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    <title>GifTastic!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+
+    <style>
+
+        body {
+          background-image: url(assets/images/background.jpg);
+          font-family: 'Cormorant Unicase', serif;
+          font-weight: strong;
+        }
+        
+    </style>
+
+    <script>
+       
+    </script>
+
+  </head>
+  <body>
+
+         <div class="container game">
+            <h1 style="text-align:center"> Giftastic! </h1> 
+
+            <div class="row" id="pastSearches">
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" id="mainWindow" style="border: 2px solid black; height: 100%; margin-top: 5px">
+                    <p>Type in an animal in the searchbox to get started</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="border: 2px solid black; height: 50%; margin-top: 5px">
+                    <h3>Add an animal:</h3>
+                    <input class="form-control" id="animal-input" type="text">
+                    <br>
+                    <button class="btn btn-default" id="add-gif" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
