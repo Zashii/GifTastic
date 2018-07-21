@@ -1,5 +1,7 @@
 # GifTastic
 
+Deployed Link: https://zashii.github.io/GifTastic/
+
 This is a webpage that uses the Giphy API to display 10 animated gifs of whichever animal you wish to display on the main screen. 
 
 By default, a number of animals will already be on display. Enter in the name of the animal you want to add onto the display into the input box and click submit.
